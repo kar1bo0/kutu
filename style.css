@@ -1,0 +1,65 @@
+#gamezone{
+
+    background: linear-gradient(to left, rgb(160, 111, 209), rgb(106, 35, 168));
+    height: 350px;
+    width: 650px;
+    border: 1px solid black;
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/grand-theft-auto-5/5/59/GTAO_072222.jpg?width=640);
+}
+
+
+body{
+    background: linear-gradient(to left, rgb(200, 133, 32), rgb(255, 111, 0));
+    background-attachment: fixed;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.character{
+
+    background-color: rgb(195, 154, 200);
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    display: none;
+    display: block;
+    border-radius: 5px;
+
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfWOT_M0UheiwPa8s1fDK309lH_LRE3kVCLQ&s);
+    background-size:cover;
+    background-position:center;
+    
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+
+.michael {
+    background-image:url(https://cdn.staticneo.com/w/gta5/thumb/Michael.png/280px-Michael.png);
+    background-size:cover;
+    background-position:center;
+
+}
+
+
+.character:hover{
+    scale: 1.1;  
+}
+
+.btn{
+
+    background-color: rgb(92, 146, 86);
+    padding: 20px;
+    margin: 20px;
+   
+}
